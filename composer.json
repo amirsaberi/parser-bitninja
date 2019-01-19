@@ -9,17 +9,17 @@
     "authors": [
         {
             "name": "Amirhossein Saberi",
-            "email": "amirsaberi.com",
+            "email": "amirsaberi@me.com",
             "homepage": "https://github.com/amirsaberi",
             "role": "Lead"
         }
     ],
     "support": {
         "email": "amirsaberi.com",
-        "issues": "https://github.com/amirsaberi/parser-bitninja",
+        "issues": "https://github.com/amirsaberi/parser-bitninja/issues",
         "irc": "irc://irc.freenode.net/abuseio",
         "source": "https://github.com/amirsaberi/parser-bitninja",
-        "docs": "https://abuse.io/resources/documentation/"
+        "docs": "https://github.com/amirsaberi/parser-bitninja"
     },
     "require": {
         "php": ">=5.5.9",
