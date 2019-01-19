@@ -1,0 +1,33 @@
+{
+    "name": "abuseio/parser-bitninja",
+    "description": "Parser addon for handling notifications from BitNinja",
+    "version": "0.1",
+    "keywords": ["laravel", "abuseio", "parser", "bitninja"],
+    "homepage": "http://abuse.io",
+    "type": "library",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Amirhossein Saberi",
+            "email": "amirsaberi.com",
+            "homepage": "https://github.com/amirsaberi",
+            "role": "Lead"
+        }
+    ],
+    "support": {
+        "email": "amirsaberi.com",
+        "issues": "https://github.com/amirsaberi/parser-bitninja",
+        "irc": "irc://irc.freenode.net/abuseio",
+        "source": "https://github.com/amirsaberi/parser-bitninja",
+        "docs": "https://abuse.io/resources/documentation/"
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "abuseio/parser-common": "1.1.* || dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "AbuseIO\\Parser\\Blocklistde\\": "src/"
+        }
+    }
+}
