@@ -27,3 +27,7 @@ Read this document https://docs.abuse.io/en/latest/development_parsers/
 `systemctl restart abuseio_queue_email_outgoing.service`
 
 `systemctl restart abuseio_queue_email_incoming.service`
+
+# Improvment
+
+Need to read timestamp from body or incident link.
