@@ -15,11 +15,15 @@ Read this document https://docs.abuse.io/en/latest/development_parsers/
 - Run below commands
 
 `php artisan cache:clear`
+
 `php artisan clear-compiled`
+
 `php artisan optimize`
 
 - If you are using systemd try to restart all abuseio services
 
 `systemctl restart abuseio_queue_collector.service`
+
 `systemctl restart abuseio_queue_email_outgoing.service`
+
 `systemctl restart abuseio_queue_email_incoming.service`
