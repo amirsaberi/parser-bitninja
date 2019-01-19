@@ -1,4 +1,4 @@
-# parser-bitninja
+# AbuseIO parser-bitninja
 AbuseIO - BitNinja parser
 
 # About BitNinja
